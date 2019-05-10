@@ -1,6 +1,6 @@
 //
 //  CodesignChecker.swift
-//  PrivilegedTaskRunner
+//  certcheck
 //
 //  Created by Antti Tulisalo on 20/09/2018.
 //
