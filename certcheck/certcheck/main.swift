@@ -38,7 +38,7 @@ do {
 }
 catch let error as CodesignCheckerError {
     // If the file does not have signing, validation in CodesignChecker fails
-    print("No signature found from file: \(args[1])")
+    print("No signature found from file: \(args[1]): \(error.description)")
 }
 
 exit(0)
